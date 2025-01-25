@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #6200ea;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 80%;
+    max-width: 500px;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #6200ea;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.ask-button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.ask-button:hover {
+    background-color: #3700b3;
+}
+
+.ask-button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+}
+
+.response-box {
+    width: 80%;
+    max-width: 500px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    word-wrap: break-word;
+    text-align: left;
+}
